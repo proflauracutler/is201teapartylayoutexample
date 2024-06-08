@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+}
+
+.common {
+    background-color:lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    margin-bottom: 20px; /* Adds space between common elements */
+}
+
+.header {
+    /* position: relative; */
+    padding: 1%; /* Added padding to avoid overlap with the top */
+    margin-bottom: 1%; /* Adds space below the header */
+}
+
+.leftmenu {
+    float: left;
+    width: 22%;
+    margin-right: 1%;
+}
+
+.mainbody {
+    float:left;
+    width: 54%;
+ }
+
+.rightmenu {
+    float: right;
+    width: 22%;
+    margin-left: 1%;
+    height: 2000px;
+}
+
+.footer {
+    clear: both;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px; 
+    position:fixed;
+    bottom:5px;
+    width:100%
+}

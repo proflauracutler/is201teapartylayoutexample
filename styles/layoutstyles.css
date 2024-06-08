@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+}
+
+.common {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    margin-bottom: 20px; /* Adds space between common elements */
+}
+
+.header {
+    /* position: relative; */
+    height: 250px; /* Increased to fit header content */
+    background-color: rgba(77, 5, 35, 0.9);
+    color: white;
+    text-align: center;
+    padding: 20px; /* Added padding to avoid overlap with the top */
+    margin-bottom: 20px; /* Adds space below the header */
+}
+
+.leftmenu {
+    float: left;
+    width: 22%;
+    margin-right: 1%;
+}
+
+.mainbody {
+    float:left;
+    width: 54%;
+ }
+
+.rightmenu {
+    float: right;
+    width: 22%;
+    margin-left: 1%;
+}
+
+.footer {
+    clear: both;
+    background-color: rgba(77, 5, 35, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px; /* Adds space above the footer */
+}
